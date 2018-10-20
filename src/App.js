@@ -43,7 +43,6 @@ class WeatherDisplay extends Component {
       name +
       '&appid=b1b35bba8b434a28a0be2a3e1071ae5b&units=imperial';
     fetch(URL).then((res) => res.json()).then((json) => {
-      console.warn(json);
       this.setState({ weatherData: json });
     });
   }
