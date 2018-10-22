@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import Table from '@material-ui/core/Table';
-import TableHead from '@material-ui/core/TableHead';
 import Toolbar from '@material-ui/core/Toolbar';
 import TableBody from '@material-ui/core/TableBody';
 import TableRow from '@material-ui/core/TableRow';
@@ -16,6 +14,7 @@ import './App.scss';
 //https://material-ui.com/api/button/
 const PLACES = [
   { name: 'Moscow' },
+  { name: 'Khimki' },
   { name: 'Taganrog' },
   { name: 'London' },
   { name: 'New York' },
@@ -27,7 +26,7 @@ const PLACES = [
   { name: 'Sukhothai' },
   { name: 'Kuala Lumpur' },
   { name: 'Genoa' },
-  // { name: 'Palo Alto', zip: '94303' },
+  { name: 'Palo Alto'},
   // { name: 'San Jose', zip: '94088' },
   // { name: 'Santa Cruz', zip: '95062' },
   // { name: 'Honolulu', zip: '96803' },
