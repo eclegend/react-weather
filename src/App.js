@@ -16,11 +16,12 @@ import './App.scss';
 //https://material-ui.com/api/button/
 const PLACES = [
   { name: 'Moscow' },
-  { name: 'Gus-Khrustalny' },
+  { name: 'Taganrog' },
   { name: 'London' },
   { name: 'New York' },
   { name: 'Berlin' },
   { name: 'San Jose' },
+  { name: 'Gus-Khrustalny' },
   { name: 'Bratsk' },
   { name: 'Kiev' },
   { name: 'Sukhothai' },
